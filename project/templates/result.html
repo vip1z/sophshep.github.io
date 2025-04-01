@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نتائج قراءة جواز السفر</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin-top: 30px;
+        }
+        .result-card {
+            background-color: #2d2d2d;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .header {
+            color: #4a9fe0;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+        .passport-image {
+            max-width: 100%;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .data-label {
+            color: #aaa;
+            font-weight: bold;
+        }
+        .data-value {
+            color: #fff;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+            margin-bottom: 15px;
+        }
+        .btn-print {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">نتائج قراءة جواز السفر</h2>
+        
+        <div class="result-card">
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="passportImage" class="passport-image" src="" alt="صورة الجواز">
+                </div>
+                <div class="col-md-6">
+                    <div class="data-label">رقم الجواز</div>
+                    <div class="data-value" id="resultPassportNo"></div>
+                    
+                    <div class="data-label">الاسم الكامل</div>
+                    <div class="data-value" id="resultFullName"></div>
+                    
+                    <div class="data-label">الجنسية</div>
+                    <div class="data-value" id="resultNationality"></div>
+                    
+                    <div class="data-label">تاريخ الميلاد</div>
+                    <div class="data-value" id="resultDateOfBirth"></div>
+                    
+                    <div class="data-label">مكان الميلاد</div>
+                    <div class="data-value" id="resultPlaceOfBirth"></div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="data-label">تاريخ الإصدار</div>
+                    <div class="data-value" id="resultIssueDate"></div>
+                    
+                    <div class="data-label">تاريخ الانتهاء</div>
+                    <div class="data-value" id="resultExpiryDate"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="data-label">مكان الإصدار</div>
+                    <div class="data-value" id="resultPlaceOfIssue"></div>
+                    
+                    <div class="data-label">الجنس</div>
+                    <div class="data-value" id="resultGender"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary btn-print me-md-2" onclick="window.print()">طباعة النتائج</button>
+            <button class="btn btn-secondary" onclick="window.location.href='/'">رجوع</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script>
+        // تحميل البيانات من الجلسة عند دخول الصفحة
+        document.addEventListener('DOMContentLoaded', function() {
+            const data = JSON.parse(sessionStorage.getItem('passportData'));
+            if (data) {
+                document.getElementById('resultPassportNo').textContent = data.passport_no || 'غير متوفر';
+                document.getElementById('resultFullName').textContent =
+                    (data.family_name || '') + ' ' + (data.given_name || '');
+                document.getElementById('resultNationality').textContent = data.nationality || 'غير متوفر';
+                document.getElementById('resultDateOfBirth').textContent = data.date_of_birth || 'غير متوفر';
+                document.getElementById('resultPlaceOfBirth').textContent = data.place_of_birth || 'غير متوفر';
+                document.getElementById('resultIssueDate').textContent = data.issue_date || 'غير متوفر';
+                document.getElementById('resultExpiryDate').textContent = data.expiry_date || 'غير متوفر';
+                document.getElementById('resultPlaceOfIssue').textContent = data.place_of_issue || 'غير متوفر';
+                document.getElementById('resultGender').textContent =
+                    data.gender === 'M' ? 'ذكر' : (data.gender === 'F' ? 'أنثى' : 'غير متوفر');
+                
+                if (data.image_path) {
+                    document.getElementById('passportImage').src = data.image_path;
+                }
+            } else {
+                alert('لا توجد بيانات لعرضها!');
+                window.location.href = '/';
+            }
+        });
+    </script>
+</body>
+</html>

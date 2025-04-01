@@ -1,0 +1,516 @@
+2025-03-28 20:37:55,891 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 20:37:55,891 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 20:37:55,893 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 20:37:56,283 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 20:37:56,291 INFO werkzeug MainThread :  * Debugger PIN: 608-572-564
+2025-03-28 20:38:13,441 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:38:13] "GET / HTTP/1.1" 200 -
+2025-03-28 20:38:13,481 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:38:13] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 20:40:46,063 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 20:40:46,086 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:46] "[33mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 404 -
+2025-03-28 20:40:46,086 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:46] "[33mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 404 -
+2025-03-28 20:40:51,882 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 20:40:51,894 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:51] "[33mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 404 -
+2025-03-28 20:40:51,897 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:40:51] "[33mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 404 -
+2025-03-28 20:44:07,726 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:44:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 20:44:07,739 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:44:07] "[33mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 404 -
+2025-03-28 20:44:07,742 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:44:07] "[33mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 404 -
+2025-03-28 20:45:09,652 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:45:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 20:45:09,666 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:45:09] "[33mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 404 -
+2025-03-28 20:45:09,668 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:45:09] "[33mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 404 -
+2025-03-28 20:46:31,400 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 20:46:31,400 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 20:46:31,401 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 20:46:31,855 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 20:46:31,884 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 20:46:35,637 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:46:35] "GET / HTTP/1.1" 200 -
+2025-03-28 20:46:35,679 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:46:35] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 20:48:18,114 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:48:18] "GET / HTTP/1.1" 200 -
+2025-03-28 20:48:18,149 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:48:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 20:50:37,694 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:50:37] "GET / HTTP/1.1" 200 -
+2025-03-28 20:50:45,009 DEBUG pytesseract Thread-7 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_h1pjuft7_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_h1pjuft7', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 20:50:45,722 INFO root Thread-7 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 20:50:45,724 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:50:45] "POST /upload HTTP/1.1" 200 -
+2025-03-28 20:52:13,117 DEBUG pytesseract Thread-8 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_1mfkdu39_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_1mfkdu39', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 20:52:13,330 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:52:13] "GET / HTTP/1.1" 200 -
+2025-03-28 20:52:15,540 INFO root Thread-8 (process_request_thread) : Extracted data: {'passport_no': 'BY519475', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': 'ESS oA Spent eM\nY er 52 $y Sa Pussy 52m *\n2 D ree" 3$ CHSERPSBESSSE YS C -\n4 Pon,vs a S258 4 Oc GD\nSM SEES oBS Sve SE MH ay\n= os YL P= 85D 0.00 aie\n- VE = oO = le) ee p E ‘\\\nS3 oe) S ns a *)\na: at i Qu — }\nf ee ees\nres A oa ee . E Sai O Pie\nSp Aner R63 GE\nPA KISTAN F PAK BY519475/5\nSHAH\nPASSPORT "WAZIR\nPAKISTANI a\nia O01 JUL 1985 — 17101-4950757-9\n| , M - NOWSHERA, PAK\n- SHAH, GHAFOOR\n, TaN 15 AUG 2073 PAKISTAN 7\na £3 AUG 2025 11241253494 R388323>\ns. Se : Ai ‘ (willed Mall, ! \' .\n- °- Mahe:\n¥ | ...'}
+2025-03-28 20:52:15,546 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:52:15] "POST /upload HTTP/1.1" 200 -
+2025-03-28 20:52:27,458 DEBUG pytesseract Thread-10 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_gb1q9959_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_gb1q9959', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 20:52:29,438 INFO root Thread-10 (process_request_thread) : Extracted data: {'passport_no': 'BY519475', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': 'ESS oA Spent eM\nY er 52 $y Sa Pussy 52m *\n2 D ree" 3$ CHSERPSBESSSE YS C -\n4 Pon,vs a S258 4 Oc GD\nSM SEES oBS Sve SE MH ay\n= os YL P= 85D 0.00 aie\n- VE = oO = le) ee p E ‘\\\nS3 oe) S ns a *)\na: at i Qu — }\nf ee ees\nres A oa ee . E Sai O Pie\nSp Aner R63 GE\nPA KISTAN F PAK BY519475/5\nSHAH\nPASSPORT "WAZIR\nPAKISTANI a\nia O01 JUL 1985 — 17101-4950757-9\n| , M - NOWSHERA, PAK\n- SHAH, GHAFOOR\n, TaN 15 AUG 2073 PAKISTAN 7\na £3 AUG 2025 11241253494 R388323>\ns. Se : Ai ‘ (willed Mall, ! \' .\n- °- Mahe:\n¥ | ...'}
+2025-03-28 20:52:29,444 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:52:29] "POST /upload HTTP/1.1" 200 -
+2025-03-28 20:53:39,565 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:53:39] "GET / HTTP/1.1" 200 -
+2025-03-28 20:54:20,697 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:54:20] "GET / HTTP/1.1" 200 -
+2025-03-28 20:54:35,920 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:54:35] "GET / HTTP/1.1" 200 -
+2025-03-28 20:54:35,962 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:54:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 20:57:26,306 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:57:26] "GET / HTTP/1.1" 200 -
+2025-03-28 20:57:26,349 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 20:57:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 21:01:54,386 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:01:54] "GET / HTTP/1.1" 200 -
+2025-03-28 21:01:59,317 DEBUG pytesseract Thread-18 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_lm545kvz_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_lm545kvz', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 21:01:59,957 INFO root Thread-18 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 21:01:59,960 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:01:59] "POST /upload HTTP/1.1" 200 -
+2025-03-28 21:03:31,391 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:03:31] "GET / HTTP/1.1" 200 -
+2025-03-28 21:03:34,482 DEBUG pytesseract Thread-20 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_wc_t7wia_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_wc_t7wia', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 21:03:35,129 INFO root Thread-20 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 21:03:35,131 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:03:35] "POST /upload HTTP/1.1" 200 -
+2025-03-28 21:03:58,009 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:03:58] "GET / HTTP/1.1" 200 -
+2025-03-28 21:04:51,121 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:04:51] "GET / HTTP/1.1" 200 -
+2025-03-28 21:04:54,604 DEBUG pytesseract Thread-23 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_5_mvabbt_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_5_mvabbt', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 21:04:55,296 INFO root Thread-23 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 21:04:55,299 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:04:55] "POST /upload HTTP/1.1" 200 -
+2025-03-28 21:07:09,018 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:07:09] "GET / HTTP/1.1" 200 -
+2025-03-28 21:07:21,682 DEBUG pytesseract Thread-25 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_qsbvmuh4_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_qsbvmuh4', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 21:07:23,658 INFO root Thread-25 (process_request_thread) : Extracted data: {'passport_no': 'BY519475', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': 'ESS oA Spent eM\nY er 52 $y Sa Pussy 52m *\n2 D ree" 3$ CHSERPSBESSSE YS C -\n4 Pon,vs a S258 4 Oc GD\nSM SEES oBS Sve SE MH ay\n= os YL P= 85D 0.00 aie\n- VE = oO = le) ee p E ‘\\\nS3 oe) S ns a *)\na: at i Qu — }\nf ee ees\nres A oa ee . E Sai O Pie\nSp Aner R63 GE\nPA KISTAN F PAK BY519475/5\nSHAH\nPASSPORT "WAZIR\nPAKISTANI a\nia O01 JUL 1985 — 17101-4950757-9\n| , M - NOWSHERA, PAK\n- SHAH, GHAFOOR\n, TaN 15 AUG 2073 PAKISTAN 7\na £3 AUG 2025 11241253494 R388323>\ns. Se : Ai ‘ (willed Mall, ! \' .\n- °- Mahe:\n¥ | ...'}
+2025-03-28 21:07:23,663 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:07:23] "POST /upload HTTP/1.1" 200 -
+2025-03-28 21:07:41,771 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:07:41] "GET / HTTP/1.1" 200 -
+2025-03-28 21:07:46,719 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:07:46] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-28 21:10:18,521 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:10:18] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-28 21:10:27,281 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:10:27] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-28 21:12:15,629 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:12:15] "GET / HTTP/1.1" 200 -
+2025-03-28 21:12:15,673 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:12:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 21:26:56,914 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 21:26:57,045 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:35:37,138 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 21:35:37,138 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 21:35:37,140 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:35:37,581 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 21:35:37,593 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 21:35:42,813 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:35:42] "GET / HTTP/1.1" 200 -
+2025-03-28 21:35:42,826 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:35:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=KNM5JRaZYXlNddply8bU HTTP/1.1[0m" 304 -
+2025-03-28 21:35:42,845 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:35:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 21:38:59,477 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:38:59] "GET / HTTP/1.1" 200 -
+2025-03-28 21:38:59,534 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:38:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 21:48:30,104 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 21:48:30,178 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:48:30,901 WARNING:  * Debugger is active! [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:48:30,913 INFO:  * Debugger PIN: 807-890-272 [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:48:35,861 INFO: 127.0.0.1 - - [28/Mar/2025 21:48:35] "[33mGET / HTTP/1.1[0m" 404 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:48:37,317 INFO: 127.0.0.1 - - [28/Mar/2025 21:48:37] "[33mGET / HTTP/1.1[0m" 404 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:48:43,055 INFO:  * Detected change in '/Users/mac/Desktop/project/app.py', reloading [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:48:43,154 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:48:43,804 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 21:48:43,815 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 21:48:47,454 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:48:47] "GET / HTTP/1.1" 200 -
+2025-03-28 21:48:47,490 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 21:48:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 21:53:40,520 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 21:53:40,599 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:53:41,272 WARNING:  * Debugger is active! [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:53:41,284 INFO:  * Debugger PIN: 807-890-272 [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:53:43,972 INFO: 127.0.0.1 - - [28/Mar/2025 21:53:43] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:53:44,015 INFO: 127.0.0.1 - - [28/Mar/2025 21:53:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:53:49,849 INFO: 127.0.0.1 - - [28/Mar/2025 21:53:49] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:53:49,891 INFO: 127.0.0.1 - - [28/Mar/2025 21:53:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:54:16,790 INFO:  * Detected change in '/Users/mac/Desktop/project/app.py', reloading [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:54:16,883 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 21:54:17,547 WARNING:  * Debugger is active! [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:54:17,555 INFO:  * Debugger PIN: 807-890-272 [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:55:08,629 INFO: 127.0.0.1 - - [28/Mar/2025 21:55:08] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 21:55:08,687 INFO: 127.0.0.1 - - [28/Mar/2025 21:55:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:12:26,513 INFO: 127.0.0.1 - - [28/Mar/2025 22:12:26] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:12:26,567 INFO: 127.0.0.1 - - [28/Mar/2025 22:12:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:13:01,648 INFO: 127.0.0.1 - - [28/Mar/2025 22:13:01] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:13:01,686 INFO: 127.0.0.1 - - [28/Mar/2025 22:13:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:25,488 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:25] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:25,529 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:33,524 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_ykma9wr5_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_ykma9wr5', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:15:34,254 INFO: البيانات المستخرجة: {'passport_no': 'NS143511', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'me\nBL aod Cory Core Sag rer .\nPAKISTAN Bb BAK VNS143511\nt SHAH\nPASSPORT ABDUL HAQ\nNeocoatty\n. PAKISTANI se sae.\n01 JAN "965 13202-5236351-7\nM SATTAGRAN:, PAK\nATO, ALI oan\n13 MAY 2013 PARICT\n12 MAY 2023 139010 +.\nat, i} b ‘cea ! ie .\n’ ry » Ww,\nP<PAKSHAHK<KABDULKHAR<K <<< << KK KEK eK Kee RR Ke KEK\n. VN51435112PAK8801018M23051231320258303517<06\n'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:15:34,256 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:34] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:34,285 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:34] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:34,312 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:38,761 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:38] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:15:38,794 INFO: 127.0.0.1 - - [28/Mar/2025 22:15:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:45,860 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:45] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:45,904 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:51,772 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_tn9najwv_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_tn9najwv', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:16:52,478 INFO: البيانات المستخرجة: {'passport_no': 'NS143511', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'me\nBL aod Cory Core Sag rer .\nPAKISTAN Bb BAK VNS143511\nt SHAH\nPASSPORT ABDUL HAQ\nNeocoatty\n. PAKISTANI se sae.\n01 JAN "965 13202-5236351-7\nM SATTAGRAN:, PAK\nATO, ALI oan\n13 MAY 2013 PARICT\n12 MAY 2023 139010 +.\nat, i} b ‘cea ! ie .\n’ ry » Ww,\nP<PAKSHAHK<KABDULKHAR<K <<< << KK KEK eK Kee RR Ke KEK\n. VN51435112PAK8801018M23051231320258303517<06\n'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:16:52,482 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:52] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:52,506 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:52] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:52,537 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:55,024 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:55] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:16:55,063 INFO: 127.0.0.1 - - [28/Mar/2025 22:16:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:19:07,650 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_3htwf89t_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_3htwf89t', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:19:08,345 INFO: البيانات المستخرجة: {'passport_no': 'NS143511', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'me\nBL aod Cory Core Sag rer .\nPAKISTAN Bb BAK VNS143511\nt SHAH\nPASSPORT ABDUL HAQ\nNeocoatty\n. PAKISTANI se sae.\n01 JAN "965 13202-5236351-7\nM SATTAGRAN:, PAK\nATO, ALI oan\n13 MAY 2013 PARICT\n12 MAY 2023 139010 +.\nat, i} b ‘cea ! ie .\n’ ry » Ww,\nP<PAKSHAHK<KABDULKHAR<K <<< << KK KEK eK Kee RR Ke KEK\n. VN51435112PAK8801018M23051231320258303517<06\n'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:19:08,347 INFO: 127.0.0.1 - - [28/Mar/2025 22:19:08] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:19:08,378 INFO: 127.0.0.1 - - [28/Mar/2025 22:19:08] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:19:08,438 INFO: 127.0.0.1 - - [28/Mar/2025 22:19:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:19:11,728 INFO: 127.0.0.1 - - [28/Mar/2025 22:19:11] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:19:11,782 INFO: 127.0.0.1 - - [28/Mar/2025 22:19:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:33:52,335 INFO: 127.0.0.1 - - [28/Mar/2025 22:33:52] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:33:52,387 INFO: 127.0.0.1 - - [28/Mar/2025 22:33:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:33:59,153 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_xv3ziwmv_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_xv3ziwmv', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:33:59,842 INFO: البيانات المستخرجة: {'passport_no': 'NS143511', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'me\nBL aod Cory Core Sag rer .\nPAKISTAN Bb BAK VNS143511\nt SHAH\nPASSPORT ABDUL HAQ\nNeocoatty\n. PAKISTANI se sae.\n01 JAN "965 13202-5236351-7\nM SATTAGRAN:, PAK\nATO, ALI oan\n13 MAY 2013 PARICT\n12 MAY 2023 139010 +.\nat, i} b ‘cea ! ie .\n’ ry » Ww,\nP<PAKSHAHK<KABDULKHAR<K <<< << KK KEK eK Kee RR Ke KEK\n. VN51435112PAK8801018M23051231320258303517<06\n'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:33:59,845 INFO: 127.0.0.1 - - [28/Mar/2025 22:33:59] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:33:59,867 INFO: 127.0.0.1 - - [28/Mar/2025 22:33:59] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:33:59,900 INFO: 127.0.0.1 - - [28/Mar/2025 22:33:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:03,699 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:03] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:03,738 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:27,132 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_0q0uxdrz_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_0q0uxdrz', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:34:30,103 INFO: البيانات المستخرجة: {'passport_no': 'BY514758', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': '> Cig wom Ssctcete sare\n7 A: - VE 25 SH PSESSy 52RD ~\ni. Avid SSeS 5 2528 Be\ns vow KO “2 Fas e2 vz _\ntars oroter, SLE oS ezsse 02 RB +\nee ~ 4 amor.vas &shséZ Oc gp \'\nwee S-FEY¥UN D@eSosve SE rm ve\n"4 Soy. ~ oppo EE a >*\na =s26 32-252 A2 of\nee | O © <“S p = \'\na eo 5 = 2a ¢ ‘\n—_ an g&u — .\n3 ff £5\nos. 8 os. 9 es coe ait ae ee a oo ae ° ,\npe RO KIRK OKIE SH KOCOK\n-PAKIST, nN ‘ PAN BY514758" 5\nPASSPORT WAZIR\nPAKISTANI\nti . 01 JUL 1985 - 17101-4950757-9\n" | Me NOWSHERA, PAK\n- SHAH, GHAFOOR\nf s> dd 15...'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:34:30,111 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:30] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:30,125 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:30] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:30,157 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:32,658 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:32] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:32,700 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:48,749 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:48] "GET /?file=&nationality=&visaType=&passportNo=&placeOfIssue=&issueDate=&expiryDate=&familyName=&givenName=&dateOfBirth=&placeOfBirth=&gender=&referenceLegal=&phone=&email=&personal_photo=‏لقطة+الشاشة+2025-03-28+في+10.21.23 م+(3).png&optional_docs=‏لقطة+الشاشة+2025-03-28+في+10.21.23 م+(2).png HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:48,790 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:55,881 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:55] "GET /?file=&nationality=&visaType=&passportNo=&placeOfIssue=&issueDate=&expiryDate=&familyName=&givenName=&dateOfBirth=&placeOfBirth=&gender=&referenceLegal=&phone=&email=&personal_photo=‏لقطة+الشاشة+2025-03-28+في+10.21.23 م+(2).png&optional_docs= HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:34:55,931 INFO: 127.0.0.1 - - [28/Mar/2025 22:34:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:35:21,441 DEBUG: ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_2iz6ag1z_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_2iz6ag1z', '--oem', '3', '--psm', '6', '-l', 'ara+eng+fra', 'txt'] [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/pytesseract/pytesseract.py:272]
+2025-03-28 22:35:24,325 INFO: البيانات المستخرجة: {'passport_no': 'BY514758', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': '> Cig wom Ssctcete sare\n7 A: - VE 25 SH PSESSy 52RD ~\ni. Avid SSeS 5 2528 Be\ns vow KO “2 Fas e2 vz _\ntars oroter, SLE oS ezsse 02 RB +\nee ~ 4 amor.vas &shséZ Oc gp \'\nwee S-FEY¥UN D@eSosve SE rm ve\n"4 Soy. ~ oppo EE a >*\na =s26 32-252 A2 of\nee | O © <“S p = \'\na eo 5 = 2a ¢ ‘\n—_ an g&u — .\n3 ff £5\nos. 8 os. 9 es coe ait ae ee a oo ae ° ,\npe RO KIRK OKIE SH KOCOK\n-PAKIST, nN ‘ PAN BY514758" 5\nPASSPORT WAZIR\nPAKISTANI\nti . 01 JUL 1985 - 17101-4950757-9\n" | Me NOWSHERA, PAK\n- SHAH, GHAFOOR\nf s> dd 15...'} [/Users/mac/Desktop/project/app.py:88]
+2025-03-28 22:35:24,333 INFO: 127.0.0.1 - - [28/Mar/2025 22:35:24] "POST /upload HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:35:24,346 INFO: 127.0.0.1 - - [28/Mar/2025 22:35:24] "GET /result HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:35:24,374 INFO: 127.0.0.1 - - [28/Mar/2025 22:35:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:35:26,163 INFO: 127.0.0.1 - - [28/Mar/2025 22:35:26] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:35:26,203 INFO: 127.0.0.1 - - [28/Mar/2025 22:35:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:39:34,917 INFO: 127.0.0.1 - - [28/Mar/2025 22:39:34] "GET / HTTP/1.1" 200 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:39:34,999 INFO: 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:41:19,170 INFO:  * Detected change in '/Users/mac/Desktop/project/app.py', reloading [/Users/mac/Desktop/project/myenv/lib/python3.12/site-packages/werkzeug/_internal.py:97]
+2025-03-28 22:41:19,326 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 22:50:08,584 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 22:50:08,584 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 22:50:08,586 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 22:50:09,044 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 22:50:09,053 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 22:50:14,173 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:50:14] "GET / HTTP/1.1" 200 -
+2025-03-28 22:50:14,201 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:50:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:51:27,788 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 22:51:27,878 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 22:51:28,459 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 22:51:28,468 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 22:51:48,336 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:51:48] "GET / HTTP/1.1" 200 -
+2025-03-28 22:51:48,363 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:51:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:51:50,135 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:51:50] "GET / HTTP/1.1" 200 -
+2025-03-28 22:51:50,155 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:51:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:53:10,862 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 22:53:10,862 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 22:53:10,863 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 22:53:11,322 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 22:53:11,330 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 22:53:14,588 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:14] "GET / HTTP/1.1" 200 -
+2025-03-28 22:53:14,618 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:53:30,482 DEBUG pytesseract Thread-4 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_0z79ohjp_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_0z79ohjp', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 22:53:32,610 INFO root Thread-4 (process_request_thread) : Extracted data: {'passport_no': 'BY519475', 'family_name': '', 'given_name': '', 'nationality': '', 'date_of_birth': '1985-07-01', 'place_of_birth': '', 'issue_date': '1985-07-01', 'expiry_date': '1985-07-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/PHOTO-2025-03-26-23-42-34.jpg', 'raw_text': 'ESS oA Spent eM\nY er 52 $y Sa Pussy 52m *\n2 D ree" 3$ CHSERPSBESSSE YS C -\n4 Pon,vs a S258 4 Oc GD\nSM SEES oBS Sve SE MH ay\n= os YL P= 85D 0.00 aie\n- VE = oO = le) ee p E ‘\\\nS3 oe) S ns a *)\na: at i Qu — }\nf ee ees\nres A oa ee . E Sai O Pie\nSp Aner R63 GE\nPA KISTAN F PAK BY519475/5\nSHAH\nPASSPORT "WAZIR\nPAKISTANI a\nia O01 JUL 1985 — 17101-4950757-9\n| , M - NOWSHERA, PAK\n- SHAH, GHAFOOR\n, TaN 15 AUG 2073 PAKISTAN 7\na £3 AUG 2025 11241253494 R388323>\ns. Se : Ai ‘ (willed Mall, ! \' .\n- °- Mahe:\n¥ | ...'}
+2025-03-28 22:53:32,617 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:32] "POST /upload HTTP/1.1" 200 -
+2025-03-28 22:53:32,669 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:32] "GET /result HTTP/1.1" 200 -
+2025-03-28 22:53:32,697 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:53:34,939 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:34] "GET / HTTP/1.1" 200 -
+2025-03-28 22:53:34,949 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:53:34,981 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:53:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 22:55:21,686 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 22:55:21,779 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 22:55:22,431 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 22:55:22,451 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 22:55:28,631 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:55:28] "GET / HTTP/1.1" 200 -
+2025-03-28 22:55:28,650 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 22:55:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:12:46,801 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-28 23:12:46,802 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-28 23:12:46,803 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:12:47,242 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:12:47,256 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:12:50,874 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:12:50] "GET / HTTP/1.1" 200 -
+2025-03-28 23:12:50,899 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:12:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:13:13,528 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:13:13,643 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:13:14,248 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:13:14,260 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:13:17,037 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:13:17] "GET / HTTP/1.1" 200 -
+2025-03-28 23:13:17,084 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:13:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:14:47,390 DEBUG pytesseract Thread-4 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_lg5yp8bb_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_lg5yp8bb', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 23:14:48,240 INFO root Thread-4 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 23:14:48,242 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:14:48] "POST /upload HTTP/1.1" 200 -
+2025-03-28 23:14:48,266 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:14:48] "GET /result HTTP/1.1" 200 -
+2025-03-28 23:14:48,298 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:14:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:14:51,475 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:14:51] "GET / HTTP/1.1" 200 -
+2025-03-28 23:14:51,515 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:14:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:18:20,652 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:20] "GET / HTTP/1.1" 200 -
+2025-03-28 23:18:20,696 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:20] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 23:18:25,926 DEBUG pytesseract Thread-11 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_ytdv9lcw_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_ytdv9lcw', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 23:18:26,613 INFO root Thread-11 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 23:18:26,616 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:26] "POST /upload HTTP/1.1" 200 -
+2025-03-28 23:18:26,639 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:26] "GET /result HTTP/1.1" 200 -
+2025-03-28 23:18:26,666 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:18:28,773 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:28] "GET / HTTP/1.1" 200 -
+2025-03-28 23:18:28,806 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:18:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:19:33,536 DEBUG pytesseract Thread-16 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_bx92if41_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_bx92if41', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 23:19:34,181 INFO root Thread-16 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 23:19:34,183 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:19:34] "POST /upload HTTP/1.1" 200 -
+2025-03-28 23:19:34,215 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:19:34] "GET /result HTTP/1.1" 200 -
+2025-03-28 23:19:34,273 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:19:34] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 23:19:41,570 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:19:41] "GET / HTTP/1.1" 200 -
+2025-03-28 23:19:41,612 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:19:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:20:13,648 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:13] "GET / HTTP/1.1" 200 -
+2025-03-28 23:20:13,696 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:13] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 23:20:17,827 DEBUG pytesseract Thread-23 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_vg_5jaji_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_vg_5jaji', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-28 23:20:18,507 INFO root Thread-23 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-28 23:20:18,509 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:18] "POST /upload HTTP/1.1" 200 -
+2025-03-28 23:20:18,531 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:18] "GET /result HTTP/1.1" 200 -
+2025-03-28 23:20:18,564 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:20:20,943 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:20] "GET / HTTP/1.1" 200 -
+2025-03-28 23:20:20,976 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:20:39,426 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:39] "GET / HTTP/1.1" 200 -
+2025-03-28 23:20:39,470 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:20:39] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-28 23:36:13,296 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:36:13] "GET / HTTP/1.1" 200 -
+2025-03-28 23:36:13,333 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:36:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:37:03,476 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:37:03] "GET / HTTP/1.1" 200 -
+2025-03-28 23:37:03,521 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:37:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:50:58,347 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:50:58] "GET / HTTP/1.1" 200 -
+2025-03-28 23:50:58,390 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:50:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:51:26,790 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:26] "GET / HTTP/1.1" 200 -
+2025-03-28 23:51:26,830 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:51:35,913 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:35] "GET / HTTP/1.1" 200 -
+2025-03-28 23:51:35,969 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:51:52,878 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:52] "GET / HTTP/1.1" 200 -
+2025-03-28 23:51:52,920 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:51:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:52:30,015 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:52:30] "GET / HTTP/1.1" 200 -
+2025-03-28 23:52:30,060 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:52:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:55:11,396 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:55:11,492 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:55:12,208 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:55:12,219 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:55:14,265 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:55:14] "GET / HTTP/1.1" 200 -
+2025-03-28 23:55:14,319 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:55:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:55:30,419 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:55:30,536 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:55:31,175 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:55:31,185 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:55:31,522 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:55:31] "GET / HTTP/1.1" 200 -
+2025-03-28 23:55:31,566 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:55:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:56:13,608 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:56:13,708 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:56:14,242 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:56:14,252 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:57:23,987 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:57:24,105 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:57:24,696 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:57:24,714 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:57:24,757 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:57:24] "GET / HTTP/1.1" 200 -
+2025-03-28 23:57:24,804 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:57:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:58:07,164 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:58:07,366 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:58:07,952 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:58:07,963 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:58:08,373 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:58:08] "GET / HTTP/1.1" 200 -
+2025-03-28 23:58:08,419 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:58:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:58:45,323 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:58:45,421 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:58:46,036 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:58:46,045 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:58:46,380 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:58:46] "GET / HTTP/1.1" 200 -
+2025-03-28 23:58:46,422 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:58:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:59:00,214 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:59:00,322 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:59:00,827 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:59:00,835 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:59:03,865 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:59:03] "GET / HTTP/1.1" 200 -
+2025-03-28 23:59:03,916 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:59:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-28 23:59:53,425 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-28 23:59:53,516 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-28 23:59:54,065 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-28 23:59:54,078 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-28 23:59:54,134 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:59:54] "GET / HTTP/1.1" 200 -
+2025-03-28 23:59:54,191 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Mar/2025 23:59:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:00:22,436 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:00:22,510 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:00:23,145 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:00:23,156 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:00:23,627 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:00:23] "GET / HTTP/1.1" 200 -
+2025-03-29 00:00:23,668 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:00:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:00:45,375 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:00:45,461 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:00:46,062 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:00:46,072 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:00:46,113 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:00:46] "GET / HTTP/1.1" 200 -
+2025-03-29 00:00:46,158 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:00:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:02:38,122 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:02:38,211 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:02:38,740 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:02:38,749 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:02:39,655 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:02:39] "GET / HTTP/1.1" 200 -
+2025-03-29 00:02:39,697 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:02:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:04:05,617 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:04:05,731 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:04:06,269 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:04:06,279 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:04:08,213 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:04:08] "GET / HTTP/1.1" 200 -
+2025-03-29 00:04:08,261 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:04:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:04:43,639 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:04:43,721 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:04:44,365 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:04:44,374 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:04:44,459 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:04:44] "GET / HTTP/1.1" 200 -
+2025-03-29 00:04:44,502 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:04:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:05:59,142 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:05:59,231 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:05:59,688 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:05:59,697 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:06:17,871 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:06:17,976 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:06:18,571 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:06:18,580 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:06:18,639 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:06:18] "GET / HTTP/1.1" 200 -
+2025-03-29 00:06:18,684 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:06:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:07:41,592 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:07:41] "GET / HTTP/1.1" 200 -
+2025-03-29 00:07:41,634 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:07:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:08:14,640 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:08:14,746 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:08:15,394 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:08:15,404 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:08:15,933 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:08:15] "GET / HTTP/1.1" 200 -
+2025-03-29 00:08:15,980 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:08:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:08:48,719 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:08:48,802 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:08:49,316 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:08:49,327 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:09:08,425 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:08] "GET / HTTP/1.1" 200 -
+2025-03-29 00:09:08,481 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:09:32,726 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:09:32,798 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:09:33,274 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:09:33,282 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:09:33,309 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:33] "GET / HTTP/1.1" 200 -
+2025-03-29 00:09:33,351 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:09:53,506 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:09:53,665 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:09:54,295 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:09:54,304 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:09:54,496 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:54] "GET / HTTP/1.1" 200 -
+2025-03-29 00:09:54,546 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:09:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:11:20,114 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:11:20,194 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:11:20,700 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:11:20,709 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 00:11:21,425 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:11:21] "GET / HTTP/1.1" 200 -
+2025-03-29 00:11:21,479 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:11:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:12:34,237 DEBUG pytesseract Thread-4 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_62bny_gb_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_62bny_gb', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 00:12:34,926 INFO root Thread-4 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 00:12:34,928 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:12:34] "POST /upload HTTP/1.1" 200 -
+2025-03-29 00:12:34,956 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:12:34] "GET /result HTTP/1.1" 200 -
+2025-03-29 00:12:34,990 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:12:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:12:36,972 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:12:36] "GET / HTTP/1.1" 200 -
+2025-03-29 00:12:37,011 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:12:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:34,321 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:34] "GET / HTTP/1.1" 200 -
+2025-03-29 00:35:34,386 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:34] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-29 00:35:35,114 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 00:35:40,285 DEBUG pytesseract Thread-12 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_yrmzkmgc_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_yrmzkmgc', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 00:35:40,944 INFO root Thread-12 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 00:35:40,947 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:40] "POST /upload HTTP/1.1" 200 -
+2025-03-29 00:35:40,960 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:40] "GET /result HTTP/1.1" 200 -
+2025-03-29 00:35:40,987 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:46,624 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:46] "GET / HTTP/1.1" 200 -
+2025-03-29 00:35:46,648 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:35:51,932 DEBUG pytesseract Thread-17 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_7os11wyp_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_7os11wyp', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 00:35:52,574 INFO root Thread-17 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 00:35:52,577 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:52] "POST /upload HTTP/1.1" 200 -
+2025-03-29 00:35:52,589 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:52] "GET /result HTTP/1.1" 200 -
+2025-03-29 00:35:52,621 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:35:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:36:02,224 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:02] "GET / HTTP/1.1" 200 -
+2025-03-29 00:36:02,250 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:36:09,737 DEBUG pytesseract Thread-22 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_6l0x_vt1_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_6l0x_vt1', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 00:36:10,379 INFO root Thread-22 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 00:36:10,381 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:10] "POST /upload HTTP/1.1" 200 -
+2025-03-29 00:36:10,395 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:10] "GET /result HTTP/1.1" 200 -
+2025-03-29 00:36:10,427 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:36:11,830 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:11] "GET / HTTP/1.1" 200 -
+2025-03-29 00:36:11,857 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:36:30,022 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:30] "GET /?file=&nationality=&visaType=&passportNo=&placeOfIssue=&issueDate=&expiryDate=&familyName=&givenName=&dateOfBirth=&placeOfBirth=&gender=&referenceLegal=&phone=&email=&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 00:36:30,056 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:36:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:46:10,075 DEBUG pytesseract Thread-29 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_1m8pwr9z_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_1m8pwr9z', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 00:46:11,092 INFO root Thread-29 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 00:46:11,095 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:46:11] "POST /upload HTTP/1.1" 200 -
+2025-03-29 00:46:11,117 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:46:11] "GET /result HTTP/1.1" 200 -
+2025-03-29 00:46:11,150 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:46:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:46:13,329 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:46:13] "GET / HTTP/1.1" 200 -
+2025-03-29 00:46:13,365 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 00:46:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 00:48:15,389 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 00:48:15,500 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 00:48:16,242 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 00:48:16,251 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 01:04:37,581 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 01:04:37,730 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:04:52,718 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:04:53,277 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 01:04:53,289 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 01:04:56,755 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:04:56] "GET / HTTP/1.1" 200 -
+2025-03-29 01:04:56,805 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:04:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:06:57,476 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 01:06:57,573 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:10:55,147 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 01:10:55,160 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 01:10:56,062 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:10:56] "GET / HTTP/1.1" 200 -
+2025-03-29 01:10:56,094 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:10:56] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-29 01:13:16,424 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 01:13:46,421 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.42:5000
+2025-03-29 01:13:46,422 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-03-29 01:13:46,423 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:13:46,882 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 01:13:46,891 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 01:13:49,783 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:13:49] "GET / HTTP/1.1" 200 -
+2025-03-29 01:13:49,818 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:13:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:17:43,973 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Desktop/project/app.py', reloading
+2025-03-29 01:17:44,062 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:18:02,995 INFO werkzeug MainThread :  * Restarting with stat
+2025-03-29 01:18:03,523 WARNING werkzeug MainThread :  * Debugger is active!
+2025-03-29 01:18:03,534 INFO werkzeug MainThread :  * Debugger PIN: 807-890-272
+2025-03-29 01:18:07,139 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:18:07] "GET / HTTP/1.1" 200 -
+2025-03-29 01:18:07,187 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:18:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:40:07,892 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:07] "GET / HTTP/1.1" 200 -
+2025-03-29 01:40:07,976 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:40:14,962 DEBUG pytesseract Thread-6 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_5fv4uxc2_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_5fv4uxc2', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 01:40:15,615 INFO root Thread-6 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 01:40:15,617 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:15] "POST /upload HTTP/1.1" 200 -
+2025-03-29 01:40:15,658 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:15] "GET /result HTTP/1.1" 200 -
+2025-03-29 01:40:15,700 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:40:17,815 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:17] "GET / HTTP/1.1" 200 -
+2025-03-29 01:40:17,930 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:40:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:45:50,279 DEBUG pytesseract Thread-11 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_gh7zo1bj_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_gh7zo1bj', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 01:45:50,944 INFO root Thread-11 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 01:45:50,947 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:45:50] "POST /upload HTTP/1.1" 200 -
+2025-03-29 01:45:50,977 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:45:50] "GET /result HTTP/1.1" 200 -
+2025-03-29 01:45:51,036 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:45:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:45:52,842 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:45:52] "GET / HTTP/1.1" 200 -
+2025-03-29 01:45:52,906 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:45:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:46:18,714 DEBUG pytesseract Thread-16 (process_request_thread) : ['tesseract', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_sly9ktww_input.PNG', '/var/folders/4j/nmj_r5n17y77ys7ljtb87_k40000gn/T/tess_sly9ktww', '--oem', '3', '--psm', '6', '-l', 'eng+ara+fra', 'txt']
+2025-03-29 01:46:19,368 INFO root Thread-16 (process_request_thread) : Extracted data: {'passport_no': 'VN51435112', 'family_name': 'ABDUL', 'given_name': 'HAQ', 'nationality': '', 'date_of_birth': '1988-01-01', 'place_of_birth': '', 'issue_date': '1988-01-01', 'expiry_date': '1988-01-01', 'gender': '', 'place_of_issue': '', 'image_path': 'uploads/IMG_2431.jpg', 'raw_text': 'a * |\n"yes Coury SET .\nBAe ee Waiasu\nPASSPORT ,ABDUL HAQ\n-.: PAKISTAN! seman .\n| 01 JAN 1928 13202-5839351-7\n~ “a M SATTAGRAM, Pak !\nee 284 “SAID, ALI sougame\n\\¥ ¥ / 13 MAY 2013 PARIS E>\nie 12 MAY 2023 129010.\n: hae ta? ihe! A ‘ : fe? ., . |\n’ o.. a | 7 ANIA aati Oo\nful I q RY aL ee Te\n* : \\ ‘a eee dae i Mee ereee | RH\nP<PAKSHAH<<ABDUL<HAQ<<<< KK KKK ERK CREEK\n| VN51435112PAK8801018M23051 231320258303517<06\n'}
+2025-03-29 01:46:19,370 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:46:19] "POST /upload HTTP/1.1" 200 -
+2025-03-29 01:46:19,400 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:46:19] "GET /result HTTP/1.1" 200 -
+2025-03-29 01:46:19,459 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:46:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:46:21,250 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:46:21] "GET / HTTP/1.1" 200 -
+2025-03-29 01:46:21,319 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:46:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:50:16,338 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:50:16] "GET / HTTP/1.1" 200 -
+2025-03-29 01:50:16,391 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:50:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:50:28,726 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:50:28] "GET / HTTP/1.1" 200 -
+2025-03-29 01:50:28,786 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:50:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:51:43,661 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:51:43] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 01:51:43,763 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:51:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:53:59,437 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:53:59] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 01:53:59,526 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:53:59] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-29 01:54:16,101 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:54:16] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 01:54:16,248 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:54:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 01:56:43,511 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:56:43] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-29 01:58:15,297 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:58:15] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-29 01:59:26,260 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 01:59:26] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-29 02:30:05,743 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:30:05] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 02:30:05,830 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:30:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 02:30:34,423 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:30:34] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 02:30:34,496 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:30:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-29 02:44:00,582 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:44:00] "GET /?file=&nationality=ARE&visaType=business&passportNo=ك+نمضى+&placeOfIssue=أختا&issueDate=2025-03-11&expiryDate=2025-03-19&familyName=لااتخلال&givenName=تاؤتعاؤب&dateOfBirth=&placeOfBirth=طةم&gender=M&referenceLegal=نى&phone=اببغبعغ٧٩٩٧٨٧٦٦&email=hmgxm@hotmail.com&personal_photo=&optional_docs= HTTP/1.1" 200 -
+2025-03-29 02:44:00,632 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [29/Mar/2025 02:44:00] "GET /static/js/script.js HTTP/1.1" 200 -
